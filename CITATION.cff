@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this solution, please cite this repository and the replay sources listed in THIRD_PARTY_NOTICES.md."
+title: "Kaggriculture: Reliable Production, Competitive Markets"
+type: software
+authors:
+  - name: "shawny1b0609"
+version: 1.0.0
+date-released: 2026-10-15
+url: "https://github.com/shawny1b0609/kaggriculture-solution"
+license: MIT

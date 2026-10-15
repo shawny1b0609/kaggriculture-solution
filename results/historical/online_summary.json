@@ -1,0 +1,370 @@
+{
+  "submission_id": 56707930,
+  "queried_at_utc": "2026-10-15T02:36:18.775780+00:00",
+  "submission": [
+    {
+      "ref": 56707930,
+      "totalBytes": 623131,
+      "date": "2026-09-30T12:56:36.917Z",
+      "description": "G8 public pasture allocation + SYNC2 crops; frozen G2 market; 168 audited paired games; package parity1438; sha e3b176b76e85",
+      "fileName": "pasture_sync2_731291_learn24_20260930_v1.tar.gz",
+      "publicScore": "2226.6",
+      "privateScore": "2226.6",
+      "status": "COMPLETE",
+      "submittedBy": "shawnyib",
+      "submittedByRef": "shawnyib",
+      "teamName": "shawnYiB",
+      "url": "/submissions/56707930/56707930.raw"
+    }
+  ],
+  "returned_episodes": 927,
+  "excluded": [
+    {
+      "episode": 117318409,
+      "type": "EPISODE_TYPE_PUBLIC",
+      "state": "ERRORED",
+      "own_seats": 1
+    },
+    {
+      "episode": 115784120,
+      "type": "EPISODE_TYPE_VALIDATION",
+      "state": "COMPLETED",
+      "own_seats": 2
+    }
+  ],
+  "first_public_end": "2026-09-30T13:05:24.494Z",
+  "last_public_end": "2026-10-14T23:47:11.228Z",
+  "all_public": {
+    "games": 925,
+    "wins": 535,
+    "losses": 390,
+    "ties": 0,
+    "win_rate": 0.5783783783783784,
+    "mean_cash": 104604.1081081081,
+    "mean_margin": 890.3589189189189,
+    "median_margin": 2976,
+    "min_margin": -146682,
+    "max_margin": 127419
+  },
+  "latest_100": {
+    "games": 100,
+    "wins": 52,
+    "losses": 48,
+    "ties": 0,
+    "win_rate": 0.52,
+    "mean_cash": 103434.67,
+    "mean_margin": 1115.06,
+    "median_margin": 757.5,
+    "min_margin": -41381,
+    "max_margin": 30317
+  },
+  "first_100": {
+    "games": 100,
+    "wins": 76,
+    "losses": 24,
+    "ties": 0,
+    "win_rate": 0.76,
+    "mean_cash": 108674.72,
+    "mean_margin": 9601.76,
+    "median_margin": 7969.5,
+    "min_margin": -41499,
+    "max_margin": 127419
+  },
+  "unique_opponent_teams": 470,
+  "unique_opponent_submissions": 592,
+  "daily": [
+    {
+      "date": "2026-09-30",
+      "games": 87,
+      "wins": 68,
+      "losses": 19,
+      "ties": 0,
+      "win_rate": 0.7816091954022989,
+      "mean_cash": 108861.66666666667,
+      "mean_margin": 10476.275862068966,
+      "median_margin": 8138,
+      "min_margin": -41499,
+      "max_margin": 127419
+    },
+    {
+      "date": "2026-10-01",
+      "games": 46,
+      "wins": 32,
+      "losses": 14,
+      "ties": 0,
+      "win_rate": 0.6956521739130435,
+      "mean_cash": 106641.86956521739,
+      "mean_margin": 5499.586956521739,
+      "median_margin": 7770.0,
+      "min_margin": -20695,
+      "max_margin": 22990
+    },
+    {
+      "date": "2026-10-02",
+      "games": 43,
+      "wins": 36,
+      "losses": 7,
+      "ties": 0,
+      "win_rate": 0.8372093023255814,
+      "mean_cash": 104865.53488372093,
+      "mean_margin": 7589.488372093023,
+      "median_margin": 8100,
+      "min_margin": -22649,
+      "max_margin": 38029
+    },
+    {
+      "date": "2026-10-03",
+      "games": 50,
+      "wins": 36,
+      "losses": 14,
+      "ties": 0,
+      "win_rate": 0.72,
+      "mean_cash": 103732.52,
+      "mean_margin": 1339.38,
+      "median_margin": 6055.0,
+      "min_margin": -146682,
+      "max_margin": 19441
+    },
+    {
+      "date": "2026-10-04",
+      "games": 52,
+      "wins": 29,
+      "losses": 23,
+      "ties": 0,
+      "win_rate": 0.5576923076923077,
+      "mean_cash": 103662.78846153847,
+      "mean_margin": -255.6153846153846,
+      "median_margin": 2258.0,
+      "min_margin": -42762,
+      "max_margin": 15926
+    },
+    {
+      "date": "2026-10-05",
+      "games": 49,
+      "wins": 29,
+      "losses": 20,
+      "ties": 0,
+      "win_rate": 0.5918367346938775,
+      "mean_cash": 106258.24489795919,
+      "mean_margin": 1274.142857142857,
+      "median_margin": 3171,
+      "min_margin": -46489,
+      "max_margin": 80598
+    },
+    {
+      "date": "2026-10-06",
+      "games": 58,
+      "wins": 32,
+      "losses": 26,
+      "ties": 0,
+      "win_rate": 0.5517241379310345,
+      "mean_cash": 101746.3448275862,
+      "mean_margin": -1303.896551724138,
+      "median_margin": 3606.5,
+      "min_margin": -48897,
+      "max_margin": 18401
+    },
+    {
+      "date": "2026-10-07",
+      "games": 58,
+      "wins": 28,
+      "losses": 30,
+      "ties": 0,
+      "win_rate": 0.4827586206896552,
+      "mean_cash": 107025.31034482758,
+      "mean_margin": -1458.4137931034484,
+      "median_margin": -589.0,
+      "min_margin": -38194,
+      "max_margin": 53687
+    },
+    {
+      "date": "2026-10-08",
+      "games": 61,
+      "wins": 34,
+      "losses": 27,
+      "ties": 0,
+      "win_rate": 0.5573770491803278,
+      "mean_cash": 101403.4918032787,
+      "mean_margin": -3409.3934426229507,
+      "median_margin": 1414,
+      "min_margin": -146306,
+      "max_margin": 20307
+    },
+    {
+      "date": "2026-10-09",
+      "games": 69,
+      "wins": 33,
+      "losses": 36,
+      "ties": 0,
+      "win_rate": 0.4782608695652174,
+      "mean_cash": 104350.46376811594,
+      "mean_margin": -1027.8840579710145,
+      "median_margin": -473,
+      "min_margin": -48239,
+      "max_margin": 70376
+    },
+    {
+      "date": "2026-10-10",
+      "games": 81,
+      "wins": 41,
+      "losses": 40,
+      "ties": 0,
+      "win_rate": 0.5061728395061729,
+      "mean_cash": 104113.88888888889,
+      "mean_margin": 13.469135802469136,
+      "median_margin": 117,
+      "min_margin": -39701,
+      "max_margin": 29637
+    },
+    {
+      "date": "2026-10-11",
+      "games": 65,
+      "wins": 34,
+      "losses": 31,
+      "ties": 0,
+      "win_rate": 0.5230769230769231,
+      "mean_cash": 105357.26153846153,
+      "mean_margin": -2372.1384615384613,
+      "median_margin": 220,
+      "min_margin": -131227,
+      "max_margin": 37033
+    },
+    {
+      "date": "2026-10-12",
+      "games": 73,
+      "wins": 31,
+      "losses": 42,
+      "ties": 0,
+      "win_rate": 0.4246575342465753,
+      "mean_cash": 99982.08219178082,
+      "mean_margin": -6174.54794520548,
+      "median_margin": -2138,
+      "min_margin": -137064,
+      "max_margin": 17721
+    },
+    {
+      "date": "2026-10-13",
+      "games": 63,
+      "wins": 36,
+      "losses": 27,
+      "ties": 0,
+      "win_rate": 0.5714285714285714,
+      "mean_cash": 107587.06349206349,
+      "mean_margin": 3123.8888888888887,
+      "median_margin": 2952,
+      "min_margin": -21776,
+      "max_margin": 61193
+    },
+    {
+      "date": "2026-10-14",
+      "games": 70,
+      "wins": 36,
+      "losses": 34,
+      "ties": 0,
+      "win_rate": 0.5142857142857142,
+      "mean_cash": 103381.0142857143,
+      "mean_margin": 897.9,
+      "median_margin": 1365.0,
+      "min_margin": -41381,
+      "max_margin": 30317
+    }
+  ],
+  "worst": [
+    {
+      "episode": 117341188,
+      "end_time": "2026-10-03T11:02:45.716Z",
+      "seat": 0,
+      "cash": 643,
+      "rival_cash": 147325,
+      "margin": -146682,
+      "rival_team": "philip georgiev",
+      "rival_team_id": 16658618,
+      "rival_submission": 56710912
+    },
+    {
+      "episode": 120022415,
+      "end_time": "2026-10-08T16:12:13.561Z",
+      "seat": 0,
+      "cash": 742,
+      "rival_cash": 147048,
+      "margin": -146306,
+      "rival_team": "masayoshi",
+      "rival_team_id": 16748866,
+      "rival_submission": 56708425
+    },
+    {
+      "episode": 122309123,
+      "end_time": "2026-10-12T00:52:09.496Z",
+      "seat": 1,
+      "cash": 851,
+      "rival_cash": 137915,
+      "margin": -137064,
+      "rival_team": "masayoshi",
+      "rival_team_id": 16748866,
+      "rival_submission": 56708425
+    },
+    {
+      "episode": 122136443,
+      "end_time": "2026-10-11T18:59:13.916Z",
+      "seat": 1,
+      "cash": 897,
+      "rival_cash": 132124,
+      "margin": -131227,
+      "rival_team": "kenmatsu4",
+      "rival_team_id": 16623370,
+      "rival_submission": 56625023
+    },
+    {
+      "episode": 122532900,
+      "end_time": "2026-10-12T08:34:31.198Z",
+      "seat": 0,
+      "cash": 110003,
+      "rival_cash": 159252,
+      "margin": -49249,
+      "rival_team": "snappi",
+      "rival_team_id": 16931354,
+      "rival_submission": 56719223
+    }
+  ],
+  "best": [
+    {
+      "episode": 115786015,
+      "end_time": "2026-09-30T13:05:24.494Z",
+      "seat": 1,
+      "cash": 175749,
+      "rival_cash": 48330,
+      "margin": 127419,
+      "rival_team": "hohohoZzZ",
+      "rival_team_id": 16775236,
+      "rival_submission": 56282936
+    },
+    {
+      "episode": 115790422,
+      "end_time": "2026-09-30T13:16:03.697Z",
+      "seat": 0,
+      "cash": 147856,
+      "rival_cash": 24393,
+      "margin": 123463,
+      "rival_team": "Adam Lloyd",
+      "rival_team_id": 16664293,
+      "rival_submission": 55573131
+    },
+    {
+      "episode": 118280046,
+      "end_time": "2026-10-05T06:19:03.400Z",
+      "seat": 1,
+      "cash": 166724,
+      "rival_cash": 86126,
+      "margin": 80598,
+      "rival_team": "Shiru2",
+      "rival_team_id": 16786092,
+      "rival_submission": 56721320
+    }
+  ],
+  "episode_states": {
+    "COMPLETED": 926,
+    "ERRORED": 1
+  },
+  "scope": "All public completed games with unique own seat returned by API; not an IID sample or proof of endpoint completeness.",
+  "status_caveat": "Episode COMPLETED is not per-agent DONE; rewards are not a production audit."
+}

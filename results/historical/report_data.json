@@ -1,0 +1,348 @@
+{
+  "development_v1": {
+    "input_sha256": "b814a781935f7fe2a95f4a3574e4dfce661275478680958b42d2cf64f11d7e48",
+    "independent_groups": 12,
+    "policies": {
+      "SYNC2": {
+        "games": 24,
+        "completed": 24,
+        "wins": 18,
+        "mean_cash": 113910.91666666667,
+        "mean_margin": 10323.083333333334,
+        "p10_margin": -8406.0,
+        "minimum_margin": -29847.0,
+        "daily_matches": 24,
+        "whole_season_matches": 24,
+        "off_graph_games": 0,
+        "unaccounted_product_games": 0,
+        "ledger_checks": 153866,
+        "ledger_errors": 0,
+        "account_errors": 0,
+        "stock_errors": 0,
+        "terminal_bag_games": 0,
+        "max_action_seconds": 0.2475960000010673
+      },
+      "PASTURE": {
+        "games": 24,
+        "completed": 24,
+        "wins": 22,
+        "mean_cash": 115633.41666666667,
+        "mean_margin": 12682.416666666666,
+        "p10_margin": 1615.0,
+        "minimum_margin": -29847.0,
+        "daily_matches": 24,
+        "whole_season_matches": 24,
+        "off_graph_games": 0,
+        "unaccounted_product_games": 0,
+        "ledger_checks": 153848,
+        "ledger_errors": 0,
+        "account_errors": 0,
+        "stock_errors": 0,
+        "terminal_bag_games": 0,
+        "max_action_seconds": 0.23786150000523776
+      }
+    },
+    "mean_paired_margin_gain": 2359.3333333333335,
+    "mean_paired_cash_gain": 1722.5,
+    "exploratory_cluster_bootstrap_95": [
+      344.80625000000003,
+      4657.097916666664
+    ],
+    "improved_groups": 6,
+    "unchanged_groups": 5,
+    "worsened_groups": 1,
+    "changed_games": 14,
+    "selections": {
+      "D11 SHEEP->COW d12_2_6": 14,
+      "D11 SHEEP->COW d12_1_5": 10,
+      "D12 SHEEP->COW d12_3_7": 10
+    },
+    "safety": {
+      "cash_below_2000": 72,
+      "no_guard": 96
+    },
+    "production_combinations": {
+      "unchanged": 10,
+      "d12_2_6": 4,
+      "d12_1_5,d12_2_6,d12_3_7": 10
+    },
+    "same_shop_sequence_pairs": 24,
+    "source": "market_game_20260930/g8/development_v1.json"
+  },
+  "confirmation_v1": {
+    "input_sha256": "0793a326ccde93c63ab4dbd36254795406219b3bfa25e9e395afa594f106131e",
+    "independent_groups": 18,
+    "policies": {
+      "SYNC2": {
+        "games": 36,
+        "completed": 36,
+        "wins": 30,
+        "mean_cash": 112405.66666666667,
+        "mean_margin": 10914.555555555555,
+        "p10_margin": -8757.0,
+        "minimum_margin": -20372.0,
+        "daily_matches": 36,
+        "whole_season_matches": 36,
+        "off_graph_games": 0,
+        "unaccounted_product_games": 0,
+        "ledger_checks": 230804,
+        "ledger_errors": 0,
+        "account_errors": 0,
+        "stock_errors": 0,
+        "terminal_bag_games": 0,
+        "max_action_seconds": 0.18050369998672977
+      },
+      "PASTURE": {
+        "games": 36,
+        "completed": 36,
+        "wins": 32,
+        "mean_cash": 113129.55555555556,
+        "mean_margin": 12684.277777777777,
+        "p10_margin": 1341.0,
+        "minimum_margin": -20372.0,
+        "daily_matches": 36,
+        "whole_season_matches": 36,
+        "off_graph_games": 0,
+        "unaccounted_product_games": 0,
+        "ledger_checks": 230776,
+        "ledger_errors": 0,
+        "account_errors": 0,
+        "stock_errors": 0,
+        "terminal_bag_games": 0,
+        "max_action_seconds": 0.29390969999076333
+      }
+    },
+    "mean_paired_margin_gain": 1769.7222222222222,
+    "mean_paired_cash_gain": 723.8888888888889,
+    "exploratory_cluster_bootstrap_95": [
+      -144.16666666666666,
+      3828.2027777777766
+    ],
+    "improved_groups": 7,
+    "unchanged_groups": 8,
+    "worsened_groups": 3,
+    "changed_games": 20,
+    "selections": {
+      "D11 SHEEP->COW d12_2_6": 20,
+      "D11 SHEEP->COW d12_1_5": 16,
+      "D12 SHEEP->COW d12_3_7": 12
+    },
+    "safety": {
+      "cash_below_2000": 108,
+      "no_guard": 144
+    },
+    "production_combinations": {
+      "unchanged": 16,
+      "d12_1_5,d12_2_6,d12_3_7": 12,
+      "d12_2_6": 4,
+      "d12_1_5,d12_2_6": 4
+    },
+    "same_shop_sequence_pairs": 36,
+    "source": "market_game_20260930/g8/confirmation_v1.json"
+  },
+  "native_v1": {
+    "input_sha256": "31c8ff22e672abcd962f39700ee587a9c277849b3acb0dfaca4bcae670f25ada",
+    "independent_groups": 12,
+    "policies": {
+      "SYNC2": {
+        "games": 24,
+        "completed": 24,
+        "wins": 24,
+        "mean_cash": 97033.75,
+        "mean_margin": 8989.666666666666,
+        "p10_margin": 2649.0,
+        "minimum_margin": 1084.0,
+        "daily_matches": 24,
+        "whole_season_matches": 24,
+        "off_graph_games": 0,
+        "unaccounted_product_games": 0,
+        "ledger_checks": 153622,
+        "ledger_errors": 0,
+        "account_errors": 0,
+        "stock_errors": 0,
+        "terminal_bag_games": 0,
+        "max_action_seconds": 0.17580709999310784
+      },
+      "PASTURE": {
+        "games": 24,
+        "completed": 24,
+        "wins": 24,
+        "mean_cash": 97356.16666666667,
+        "mean_margin": 9160.333333333334,
+        "p10_margin": 3051.0,
+        "minimum_margin": 2972.0,
+        "daily_matches": 24,
+        "whole_season_matches": 24,
+        "off_graph_games": 0,
+        "unaccounted_product_games": 0,
+        "ledger_checks": 153642,
+        "ledger_errors": 0,
+        "account_errors": 0,
+        "stock_errors": 0,
+        "terminal_bag_games": 0,
+        "max_action_seconds": 0.164451899996493
+      }
+    },
+    "mean_paired_margin_gain": 170.66666666666666,
+    "mean_paired_cash_gain": 322.4166666666667,
+    "exploratory_cluster_bootstrap_95": [
+      -1316.9166666666667,
+      1980.2937499999994
+    ],
+    "improved_groups": 2,
+    "unchanged_groups": 6,
+    "worsened_groups": 4,
+    "changed_games": 12,
+    "selections": {
+      "D11 SHEEP->COW d12_2_6": 12,
+      "D11 SHEEP->COW d12_1_5": 12,
+      "D12 SHEEP->COW d12_3_7": 10
+    },
+    "safety": {
+      "cash_below_2000": 72,
+      "no_guard": 96
+    },
+    "production_combinations": {
+      "unchanged": 12,
+      "d12_1_5,d12_2_6,d12_3_7": 10,
+      "d12_1_5,d12_2_6": 2
+    },
+    "same_shop_sequence_pairs": 24,
+    "source": "market_game_20260930/g8/native_v1.json"
+  },
+  "confirmation_contract_gains": [
+    {
+      "index": 1,
+      "case": "online_115633907",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 2,
+      "case": "online_115640157",
+      "mean_margin_gain": 3576.0
+    },
+    {
+      "index": 3,
+      "case": "online_115646369",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 4,
+      "case": "online_115654330",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 5,
+      "case": "online_115660718",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 6,
+      "case": "online_115665336",
+      "mean_margin_gain": 5903.0
+    },
+    {
+      "index": 7,
+      "case": "online_115671602",
+      "mean_margin_gain": 6667.0
+    },
+    {
+      "index": 8,
+      "case": "online_115677785",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 9,
+      "case": "online_115683945",
+      "mean_margin_gain": 628.0
+    },
+    {
+      "index": 10,
+      "case": "online_115688567",
+      "mean_margin_gain": -822.0
+    },
+    {
+      "index": 11,
+      "case": "online_115693173",
+      "mean_margin_gain": 5701.0
+    },
+    {
+      "index": 12,
+      "case": "online_115699352",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 13,
+      "case": "online_115704620",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 14,
+      "case": "online_115710080",
+      "mean_margin_gain": -6412.0
+    },
+    {
+      "index": 15,
+      "case": "online_115713674",
+      "mean_margin_gain": 9245.0
+    },
+    {
+      "index": 16,
+      "case": "online_115717683",
+      "mean_margin_gain": 0.0
+    },
+    {
+      "index": 17,
+      "case": "online_115722500",
+      "mean_margin_gain": 10951.0
+    },
+    {
+      "index": 18,
+      "case": "online_115727168",
+      "mean_margin_gain": -3582.0
+    }
+  ],
+  "production_combinations": [
+    {
+      "milk": 192,
+      "wool": 170,
+      "games": 38
+    },
+    {
+      "milk": 206,
+      "wool": 153,
+      "games": 8
+    },
+    {
+      "milk": 218,
+      "wool": 136,
+      "games": 6
+    },
+    {
+      "milk": 233,
+      "wool": 118,
+      "games": 32
+    }
+  ],
+  "cash_decomposition_examples": [
+    {
+      "label": "Learned market: 112825498",
+      "our_cash_change": 2182,
+      "opponent_cash_change": -2144,
+      "margin_change": 4326,
+      "source": "market_game_20260930/g2/featured_screen_v1.json"
+    },
+    {
+      "label": "Livestock change: 115710080",
+      "our_cash_change": 105,
+      "opponent_cash_change": 6517,
+      "margin_change": -6412,
+      "source": "market_game_20260930/g8/confirmation_v1.json"
+    }
+  ],
+  "release": {
+    "submission_id": 56707930,
+    "archive": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1.tar.gz",
+    "sha256": "e3b176b76e85fd8dd14996443c9967ebd32f9ce0f4d65e35b7598ec127df12c1"
+  }
+}

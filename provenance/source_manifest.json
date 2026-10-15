@@ -1,0 +1,417 @@
+{
+  "submission_id": 56707930,
+  "original_archive_sha256": "e3b176b76e85fd8dd14996443c9967ebd32f9ce0f4d65e35b7598ec127df12c1",
+  "files": [
+    {
+      "path": "agent/implementation/compact_agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/compact_agent.py",
+      "sha256": "18a01c02d67a446f97b80413666804c09d8f6fd3f91a45a092aad3e7379339e6"
+    },
+    {
+      "path": "agent/implementation/config.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/config.py",
+      "sha256": "b396e2eab77160fe9749bed4136880335c339d5decaad7d7ea48d15cffe543ad"
+    },
+    {
+      "path": "agent/implementation/corpus/catalog.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/corpus/catalog.py",
+      "sha256": "70853b5024077f4628dda584d093b0e261aa4df5a07d433dad94e373d588066b"
+    },
+    {
+      "path": "agent/implementation/corpus/extract.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/corpus/extract.py",
+      "sha256": "e88fc29042b39abc62c7db786f569db4b3d3609c2c99ffb475fc110f7df14f2d"
+    },
+    {
+      "path": "agent/implementation/mining/features.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/mining/features.py",
+      "sha256": "82539872aa6a0b9872a92ea353c9d03f1f378c7675702fe7fdbcd1327183ad99"
+    },
+    {
+      "path": "agent/implementation/mining/grid_key.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/mining/grid_key.py",
+      "sha256": "37c6f64f17b4111b35cd03646526d0e4eeec701c75c2d73d3468d8e3b53d582a"
+    },
+    {
+      "path": "agent/implementation/mining/grid_net.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/mining/grid_net.py",
+      "sha256": "c476148e13c9af93394b2dc8c6340064b58cd4f566cd4af088f81d2b52ce4cd3"
+    },
+    {
+      "path": "agent/implementation/mining/tokens.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/mining/tokens.py",
+      "sha256": "ad1022a7b394cf1ff9afedbba9354365a67df3b782a21fed95e45f6edf01e44d"
+    },
+    {
+      "path": "agent/implementation/node_rl/affordability.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/node_rl/affordability.py",
+      "sha256": "02b42112adab4dfa86faa96ebdae2e5498c4da78ad941a31865f61fc1cf6c553"
+    },
+    {
+      "path": "agent/implementation/node_rl/features.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/node_rl/features.py",
+      "sha256": "2ff682df1b71626c5dfd1a7f67a094db8a762111e4307e3bfd678088a155fee3"
+    },
+    {
+      "path": "agent/implementation/runtime/bag_delivery.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/bag_delivery.py",
+      "sha256": "0a2c16863a6e096965e604999b36d1faa65be05325182a219fe2a98d79809f83"
+    },
+    {
+      "path": "agent/implementation/runtime/cash_repair.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/cash_repair.py",
+      "sha256": "b8702c04ad5f5606c26b710c2144ee1199e1432e512234422ae254c3e93f9957"
+    },
+    {
+      "path": "agent/implementation/runtime/entry.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/entry.py",
+      "sha256": "6cb78e626fb98f4f75c014a4f4c84fec343384a1a6a17d4d09d8e31137d2cb35"
+    },
+    {
+      "path": "agent/implementation/runtime/grid_agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/grid_agent.py",
+      "sha256": "fbd22f6e38f4fb69828a48a4bc99ddd80bbf930e4c6d79f96287e1aaca841056"
+    },
+    {
+      "path": "agent/implementation/runtime/grid_store.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/grid_store.py",
+      "sha256": "eb831a906625eaeb924bb3a3341619104800b3f1ff4f89b95ec073a788f1764d"
+    },
+    {
+      "path": "agent/implementation/runtime/node_policy.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/node_policy.py",
+      "sha256": "29e190d776836b3b7b595306436c25e83908b96d7f3c1e656963a2e6cd134c98"
+    },
+    {
+      "path": "agent/implementation/runtime/program_vm.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/program_vm.py",
+      "sha256": "cb2d245df1c9615c38c1859b6bed7607e0838faf62038cd16b929bf810354d0c"
+    },
+    {
+      "path": "agent/implementation/runtime/resource_contract.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/resource_contract.py",
+      "sha256": "7bb519a01298840c719e7e026c6f4f8033188e066ec34629934fce5bb4fe0c8b"
+    },
+    {
+      "path": "agent/implementation/runtime/seller.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/seller.py",
+      "sha256": "1283a44938a83e1773deaa5f67d93e43c285d6c81f5cb641bbc53785d9d55034"
+    },
+    {
+      "path": "agent/implementation/runtime/source_tape.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/source_tape.py",
+      "sha256": "97cb32bc97a69da3a3e6eb0a24277daf5d3f6333a63cf2b73974ded1ab20a25a"
+    },
+    {
+      "path": "agent/implementation/runtime/stock.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/stock.py",
+      "sha256": "dec6d6678965cda276c0dfadfa65e9d57fcedb25c41d7620090bb68bad1d5e93"
+    },
+    {
+      "path": "agent/implementation/runtime/tape_simplify.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/tape_simplify.py",
+      "sha256": "a61f7d1d2dd206387a32e499518423c51f04b4c7432d56381730ded7ea7e1e48"
+    },
+    {
+      "path": "agent/implementation/runtime/view.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/view.py",
+      "sha256": "3db9c42a68042467d2de01daf97519edf286e081543757b95d45cb255ed4b877"
+    },
+    {
+      "path": "agent/implementation/runtime/weed_repair.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/runtime/weed_repair.py",
+      "sha256": "9ba481f5c3075b1b3fc3aa621cd2e58e15a05194f241c9798b3c156d066246ab"
+    },
+    {
+      "path": "agent/implementation/tools/capacity_guard_experiment.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/capacity_guard_experiment.py",
+      "sha256": "0f0d575f4194b43386c0d0cc2e7b33671202f792d0d290e6f2df9f073ea52f0e"
+    },
+    {
+      "path": "agent/implementation/tools/compact_branch_features.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/compact_branch_features.py",
+      "sha256": "fc7c7fe14bf8de6385db3fcaabfe773888210af04d46efccbfb7172786abae09"
+    },
+    {
+      "path": "agent/implementation/tools/node_contract_agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/node_contract_agent.py",
+      "sha256": "9592954d19964d37a2b409986c0220b1e8ce118daf5c4355e98f295ef1dd1cb2"
+    },
+    {
+      "path": "agent/implementation/tools/portable_branch_features.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/portable_branch_features.py",
+      "sha256": "723b1a08493825ecdaf1c7a63ce810f24f9fd8b4d1ade3812f429c15e5967f10"
+    },
+    {
+      "path": "agent/implementation/tools/portable_tree_agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/portable_tree_agent.py",
+      "sha256": "030ddaf91238bbb39e57d53f9277821e6cab8098275ab51d048f1f6e5c76302c"
+    },
+    {
+      "path": "agent/implementation/tools/production_market_features.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/production_market_features.py",
+      "sha256": "34a1ea08585863936c37fad7831a09a7f005662d007fee86f8209f7de6e0c2e1"
+    },
+    {
+      "path": "agent/implementation/tools/reliable_market_seller.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/reliable_market_seller.py",
+      "sha256": "c0abd302456c4677005df3a4f46903931046973dd6d2226272811db103509956"
+    },
+    {
+      "path": "agent/implementation/tools/resilient_contract_agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/resilient_contract_agent.py",
+      "sha256": "9b9cd1a4ad77f355d2a6ea4e1a1f337291cc0607abc7d98483f10776d4f9deca"
+    },
+    {
+      "path": "agent/implementation/tools/resilient_crop_debt_agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/resilient_crop_debt_agent.py",
+      "sha256": "100c287692b09a2440881275868afffcc0b1e705302124659d499855edadae72"
+    },
+    {
+      "path": "agent/implementation/tools/slot_guard_experiment.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/slot_guard_experiment.py",
+      "sha256": "2e17217a2d7d4eb598f1c7eb447ecd5f7657d5e9a79005fa6c112061cd9d21df"
+    },
+    {
+      "path": "agent/implementation/tools/stable_execution_agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/implementation/tools/stable_execution_agent.py",
+      "sha256": "a1c7ab4a4dce7b2ed897fc8760dde24d115ff9885088ea453cbf9e063e268c72"
+    },
+    {
+      "path": "agent/main.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/main.py",
+      "sha256": "b80deef5784ca37fe9cb0dc0416971d8ae6d2b14a8bf09a89d88a1941dea79ac"
+    },
+    {
+      "path": "agent/market_game_20260930/competitive_seller.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/competitive_seller.py",
+      "sha256": "6427e71e0cf4fd94810b01839c7a71066f53d5476a4fd77eb00c831b382258a9"
+    },
+    {
+      "path": "agent/market_game_20260930/g2/features.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g2/features.py",
+      "sha256": "5ca277f0448479bfcef38771612bf51f1def3710a230eb5d0eecca8687486531"
+    },
+    {
+      "path": "agent/market_game_20260930/g2/model.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g2/model.py",
+      "sha256": "a2b050c3c06bcd3850deed4f090a729b70012e1baa81fa3122692dc0c57f701f"
+    },
+    {
+      "path": "agent/market_game_20260930/g2/seller.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g2/seller.py",
+      "sha256": "6d32a509b6bbfab30ee6cf19a2f642ee9f6929475a5e5f586728b8142ac4d7c5"
+    },
+    {
+      "path": "agent/market_game_20260930/g4/agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g4/agent.py",
+      "sha256": "a73d3a7f8982e893f208b356c3164664eb24b8c91843a831fba2db7a3399830a"
+    },
+    {
+      "path": "agent/market_game_20260930/g4/cycles.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g4/cycles.py",
+      "sha256": "f80376c9efb734ff67088a4f2024e293c3f7b7eab4be3540719b00142f19d455"
+    },
+    {
+      "path": "agent/market_game_20260930/g5/agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g5/agent.py",
+      "sha256": "4267b818c732d513d0fabebc8fbd2cc43da567dd65de5e57b4bba4bb537fcd3d"
+    },
+    {
+      "path": "agent/market_game_20260930/g8/agent.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g8/agent.py",
+      "sha256": "eb229a364cefaeac7865736a0dfc1eb49d89ccae3e190c5a4348f8c668ed131f"
+    },
+    {
+      "path": "agent/market_game_20260930/g8/pastures.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g8/pastures.py",
+      "sha256": "ff314cd2764e42daae1e0b8e72fd447db5c0df1ce5fd975a231c8b2bef5c673f"
+    },
+    {
+      "path": "agent/market_game_20260930/ledger.py",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/ledger.py",
+      "sha256": "d9e2062037d6bde80c968d763e5d4da8d300811e0223d0d6103a8aaa029e304e"
+    },
+    {
+      "path": "agent/asset.json.gz",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/asset.json.gz",
+      "sha256": "dc60e30e8d86b3512f2b9d078b8f5774ca04052ebc866768c0367c7f6a57a86b"
+    },
+    {
+      "path": "agent/market_game_20260930/g2/opponent_flow_v1.json",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g2/opponent_flow_v1.json",
+      "sha256": "d046ab2d3bf90df91a897ab9f5ac51481d73f91e572ac969acf9ab5b2c289600"
+    },
+    {
+      "path": "agent/market_game_20260930/g4/cycle_bank.json",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g4/cycle_bank.json",
+      "sha256": "080d1fc86b89a3b2c8171de3c46d935ea0c148f5affd879fb387399c995a5da3"
+    },
+    {
+      "path": "agent/market_game_20260930/g8/pasture_certificates_v2.json",
+      "source": "market_game_20260930/g8/deliverables/pasture_sync2_731291_learn24_20260930_v1/market_game_20260930/g8/pasture_certificates_v2.json",
+      "sha256": "371dd0f1d63399c85683cd5c776b3fdd6395e96af2f31acfc4bd56a799a9004d",
+      "original_sha256": "cf4c1bd9115874fc6ee580d12c203a2e2017c7a0387c18d22dfac9da88a736f3",
+      "change": "Redacted three absolute provenance path keys; all simulation fields are unchanged."
+    },
+    {
+      "path": "docs/report/REPORT.md",
+      "source": "competition_report_20261015/REPORT.md",
+      "sha256": "6498a0439e5f32a6d6570e4c6a1c6f42d19eab3f204b2e6ee716bd4546fa756e",
+      "original_sha256": "99bf7051c7eef185635dff4586b3f9bc95b5ea1ab0ce88e154692abcb13b2d98",
+      "change": "Added public repository and reproduction links."
+    },
+    {
+      "path": "docs/report/figures/fig_architecture.png",
+      "source": "competition_report_20261015/figures/fig_architecture.png",
+      "sha256": "3c0d1981ba60053d055bf297cd543d1e8bc9513f8b1344867ce8f30f3aac5544"
+    },
+    {
+      "path": "docs/report/figures/fig_cash_decomposition.png",
+      "source": "competition_report_20261015/figures/fig_cash_decomposition.png",
+      "sha256": "97475b024c297b65827c2469b4a58c95c4233076658892ed0032815765fa12ac"
+    },
+    {
+      "path": "docs/report/figures/fig_cash_tradeoff.png",
+      "source": "competition_report_20261015/figures/fig_cash_tradeoff.png",
+      "sha256": "90dad76fa77e16bb479c893f1599a08a6bca9b7b49c11f0da793066f3354dace"
+    },
+    {
+      "path": "docs/report/figures/fig_contract_gains.png",
+      "source": "competition_report_20261015/figures/fig_contract_gains.png",
+      "sha256": "f1b34d4611d993e8c66f62d94a946d8e6574e55063e16a2830d32f2abde47b82"
+    },
+    {
+      "path": "docs/report/figures/fig_execution_timing.png",
+      "source": "competition_report_20261015/figures/fig_execution_timing.png",
+      "sha256": "fe8b1be4b9500cdc895ab10a1c1a2908168fb3534f415a7af5e7d7a0c08d33c8"
+    },
+    {
+      "path": "docs/report/figures/fig_final_evaluation.png",
+      "source": "competition_report_20261015/figures/fig_final_evaluation.png",
+      "sha256": "30872279b1294c93680c84c0cbc248882c067baef85d3c9e36011b70e46cdcd5"
+    },
+    {
+      "path": "docs/report/figures/fig_final_winrates.png",
+      "source": "competition_report_20261015/figures/fig_final_winrates.png",
+      "sha256": "0736d0edc1d439beb60a46dbb4bf39373a7b314333b45c290d81ad8033aefe01"
+    },
+    {
+      "path": "docs/report/figures/fig_market_decision.png",
+      "source": "competition_report_20261015/figures/fig_market_decision.png",
+      "sha256": "6997b2ed275b4d38e0a3be65a0988a007132c2a6b91585f86cb95541cabbf54e"
+    },
+    {
+      "path": "docs/report/figures/fig_online_results.png",
+      "source": "competition_report_20261015/figures/fig_online_results.png",
+      "sha256": "f9824a2b55f285a4fe5d379ab7ec290c10f7be329fa9d5e2b5eb9251aef77b32"
+    },
+    {
+      "path": "docs/report/figures/fig_order_budget.png",
+      "source": "competition_report_20261015/figures/fig_order_budget.png",
+      "sha256": "a7f03005c3223ff2245f6db9f207ae67738fbe1680b66b58086b95861ef972c7"
+    },
+    {
+      "path": "docs/report/figures/fig_production_choices.png",
+      "source": "competition_report_20261015/figures/fig_production_choices.png",
+      "sha256": "f033b5c9e36cdc5ad8aa4b812e229072406e10e1c44a18cc123d0b6b33a945ff"
+    },
+    {
+      "path": "docs/report/figures/fig_recompilation.png",
+      "source": "competition_report_20261015/figures/fig_recompilation.png",
+      "sha256": "a0518293b1b7b9266a105d93145709a0a476468d60e06b4246e2834b3a704c78"
+    },
+    {
+      "path": "docs/report/figures/fig_release_checks.png",
+      "source": "competition_report_20261015/figures/fig_release_checks.png",
+      "sha256": "19bd36ccfd90cd956dc0faef38107338957f1fbb61d95af5af3c41302f80a8d2"
+    },
+    {
+      "path": "docs/report/figures/fig_research_path.png",
+      "source": "competition_report_20261015/figures/fig_research_path.png",
+      "sha256": "99d8ec4de698497e7f5639ec38b6dec39178552b07f02e180731924e92de13c2"
+    },
+    {
+      "path": "docs/report/figures/fig_shared_market.png",
+      "source": "competition_report_20261015/figures/fig_shared_market.png",
+      "sha256": "5c07c77a2221ac3c9f25eacf394e521262c5dfb1df25dbdb69236d4082f57553"
+    },
+    {
+      "path": "docs/report/figures/fig_validation_design.png",
+      "source": "competition_report_20261015/figures/fig_validation_design.png",
+      "sha256": "cfcede293a1582fc0fdaf4d57e46dbadc38b2a19b7eb0823a175dbe4d2ace7ab"
+    },
+    {
+      "path": "docs/report/figures/detail/architecture_detailed.pdf",
+      "source": "competition_report_20261015/figures/detail/architecture_detailed.pdf",
+      "sha256": "72152097f7c9847ea8ce9b86c9e10b3a09fe49ed27f3421258a530ebd4cdf6fb"
+    },
+    {
+      "path": "docs/report/figures/detail/architecture_detailed.png",
+      "source": "competition_report_20261015/figures/detail/architecture_detailed.png",
+      "sha256": "8a7d940286c4803188bba1b22ab7d24e3efdd542e249cf53ab4b023ee62c3041"
+    },
+    {
+      "path": "docs/report/figures/detail/architecture_detailed.svg",
+      "source": "competition_report_20261015/figures/detail/architecture_detailed.svg",
+      "sha256": "33f0b1b93c3ff1e10cfa7bc29b3ac28cbad608564cd37ba3ff446999df61a9b4"
+    },
+    {
+      "path": "results/historical/report_data.json",
+      "source": "competition_report_20261015/evidence/report_data.json",
+      "sha256": "8dd88dea0306574bf9a12ff9b83968fd39899dbaf4ff8109a943f9f66b357fe7"
+    },
+    {
+      "path": "results/historical/panel_metrics.csv",
+      "source": "competition_report_20261015/evidence/panel_metrics.csv",
+      "sha256": "6f7022c998561e3c046ee817da3db24f9f056e0ef874f3e47baef7c570db99cd"
+    },
+    {
+      "path": "results/historical/confirmation_contract_gains.csv",
+      "source": "competition_report_20261015/evidence/confirmation_contract_gains.csv",
+      "sha256": "81b84efded2d6654ea28e865c89832e839397d5b5c5c146169d5e67562c56e1c"
+    },
+    {
+      "path": "results/historical/online_summary.json",
+      "source": "competition_report_20261015/evidence/online_summary.json",
+      "sha256": "74e6c1531a513eca32ab044bf5f6d00dddd48a9b7f0ece43caf1a1772172594c"
+    },
+    {
+      "path": "results/historical/online_public_games.csv",
+      "source": "competition_report_20261015/evidence/online_public_games.csv",
+      "sha256": "4c7de197cb0e3b50d47445eac55b8a088a894db3ec3c60d5bdf240cccecb5eb6"
+    },
+    {
+      "path": "results/historical/flow_training.json",
+      "source": "market_game_20260930/g2/training_report.json",
+      "sha256": "623dcef3fcb7df6bc481439a39f05981b189cba2632d627d10081e9e34a1871a"
+    },
+    {
+      "path": "research/original_training/train.py",
+      "source": "market_game_20260930/g2/train.py",
+      "sha256": "868b2ea5e24a1ca9a7da8c5938a05ebada508a546c5c49c694a75f467e17513f"
+    },
+    {
+      "path": "research/original_training/build_data.py",
+      "source": "market_game_20260930/g2/build_data.py",
+      "sha256": "44819a5b437cc3138742bd4767820b16ac4d97b393a386c254c22dbac6c89941"
+    },
+    {
+      "path": "research/original_certification/certify.py",
+      "source": "market_game_20260930/g8/certify.py",
+      "sha256": "d4e2359dee2fe160066fe9618e32d34d485f2929e4441209a2236cccd84c9670"
+    },
+    {
+      "path": "research/original_evaluation/fixed_supply_probe.py",
+      "source": "featured_forest_20260925/experiments/five_tree_strength_20260929/fixed_supply_probe.py",
+      "sha256": "8c21433541a461c86afa6f64b81ee3464b38ec021590ab513b5c13734c892472"
+    },
+    {
+      "path": "evaluation/scenario_engine.py",
+      "source": "bc_rl_v2/env/kaggriculture_scenario.py",
+      "sha256": "6345d18d98023a601d3124d0cb12348206cf1817667ec5d0bb0c06798abd2e05",
+      "original_sha256": "8d0897723f958ae01c5b8bf6719368fe87915f83c97e1aa53eefe7e6d9d93b27",
+      "change": "Added upstream license and modification notice."
+    }
+  ]
+}

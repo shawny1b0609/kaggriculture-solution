@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-15",
+  "engine": "1.32.7",
+  "unit_tests_passed": 6,
+  "action_parity": {
+    "compared": 1438,
+    "mismatches": []
+  },
+  "archive_smoke": {
+    "seed": 0,
+    "frames": 720,
+    "status": [
+      "DONE",
+      "DONE"
+    ],
+    "cash": [
+      76801.0,
+      76801.0
+    ]
+  },
+  "native_selfplay": [
+    {
+      "seed": 0,
+      "frames": 720,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "cash": [
+        76801.0,
+        76801.0
+      ],
+      "production_matches": [
+        true,
+        true
+      ],
+      "actual_production": [
+        {
+          "FERTILIZER": 476,
+          "WHEAT": 808,
+          "WOOL": 136,
+          "MILK": 218,
+          "EGG": 268,
+          "MELON": 66,
+          "STRAWBERRY": 268,
+          "CARROT": 85
+        },
+        {
+          "FERTILIZER": 476,
+          "WHEAT": 808,
+          "WOOL": 136,
+          "MILK": 218,
+          "EGG": 268,
+          "MELON": 66,
+          "STRAWBERRY": 268,
+          "CARROT": 85
+        }
+      ]
+    },
+    {
+      "seed": 908391002,
+      "frames": 720,
+      "status": [
+        "DONE",
+        "DONE"
+      ],
+      "cash": [
+        136450.0,
+        136450.0
+      ],
+      "production_matches": [
+        true,
+        true
+      ],
+      "actual_production": [
+        {
+          "FERTILIZER": 476,
+          "WHEAT": 826,
+          "WOOL": 118,
+          "MILK": 233,
+          "EGG": 268,
+          "MELON": 66,
+          "STRAWBERRY": 268,
+          "CARROT": 70
+        },
+        {
+          "FERTILIZER": 476,
+          "WHEAT": 826,
+          "WOOL": 118,
+          "MILK": 233,
+          "EGG": 268,
+          "MELON": 66,
+          "STRAWBERRY": 268,
+          "CARROT": 70
+        }
+      ]
+    }
+  ],
+  "contract_smoke": {
+    "mode": "fixed_production_contract",
+    "frames": 720,
+    "our_cash": 98735.0,
+    "opponent_net_cash": 91933.0,
+    "margin": 6802.0,
+    "production_matches": true,
+    "cash_accounting_passed": true,
+    "stock_accounting_passed": true,
+    "source_checks": {
+      "transitions": 719,
+      "seats": 2,
+      "cash_exact": true,
+      "shed_exact": true,
+      "seeds_exact": true,
+      "gross_reconstructed": true,
+      "night_delivery": "observed_and_bag_capacity_checked",
+      "max_protected_inventory": 28
+    }
+  },
+  "training_smoke": {
+    "train_episodes": 1,
+    "validation_episodes": 1,
+    "train_rows": 6264,
+    "validation_rows": 6264,
+    "heads": [
+      {
+        "bin": [
+          0,
+          1
+        ],
+        "mean_target": 0.19971264898777008,
+        "mean_prediction": 0.15306372812977703,
+        "export_max_error": 0.0,
+        "model": {
+          "mae": 0.2816959981103409,
+          "rmse": 1.2562038117824472,
+          "poisson_deviance": 1.0486311815856482
+        },
+        "old_flow_heuristic": {
+          "mae": 0.6215797662734985,
+          "rmse": 1.5471106455712509,
+          "poisson_deviance": 1.7424238920211792
+        }
+      },
+      {
+        "bin": [
+          1,
+          4
+        ],
+        "mean_target": 0.7878352403640747,
+        "mean_prediction": 0.579432128118617,
+        "export_max_error": 0.0,
+        "model": {
+          "mae": 0.8658603548325573,
+          "rmse": 2.6163612031879344,
+          "poisson_deviance": 2.4692077319115233
+        },
+        "old_flow_heuristic": {
+          "mae": 1.529221773147583,
+          "rmse": 3.336787881494547,
+          "poisson_deviance": 4.2174577713012695
+        }
+      },
+      {
+        "bin": [
+          4,
+          12
+        ],
+        "mean_target": 1.9960089921951294,
+        "mean_prediction": 1.79260226281156,
+        "export_max_error": 0.0,
+        "model": {
+          "mae": 1.947804588514043,
+          "rmse": 4.614734217981257,
+          "poisson_deviance": 4.28624259635567
+        },
+        "old_flow_heuristic": {
+          "mae": 2.6540868282318115,
+          "rmse": 5.200118012189554,
+          "poisson_deviance": 7.172518730163574
+        }
+      },
+      {
+        "bin": [
+          12,
+          24
+        ],
+        "mean_target": 3.0868453979492188,
+        "mean_prediction": 2.8586624170835586,
+        "export_max_error": 0.0,
+        "model": {
+          "mae": 2.4641520852190384,
+          "rmse": 4.948936604589789,
+          "poisson_deviance": 4.193455847828912
+        },
+        "old_flow_heuristic": {
+          "mae": 3.1941213607788086,
+          "rmse": 6.080682290091887,
+          "poisson_deviance": 9.100104331970215
+        }
+      }
+    ],
+    "seconds": 2.516163599997526,
+    "model_sha256": "d614392aab4babeae986a03db182e20a629240765380305c2c9ec4481ac58e46",
+    "caution": "Prediction only, not a measured terminal cash-margin improvement."
+  },
+  "archive_sha256": "c9c75034e0190990801674097f58266de9c74448fc3c48c31fd722e17ced91ce"
+}

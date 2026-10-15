@@ -1,0 +1,2135 @@
+{
+  "original_manifest_sha256": "a4818eb62fe9a11a729cbcebfba90c026d7924d1e6c0bcbcd1714556bd039623",
+  "features": [
+    "season",
+    "hour",
+    "next_shop_tick",
+    "normalized_inventory",
+    "relative_price",
+    "relative_price_impact",
+    "daily_known_demand",
+    "rival_cash",
+    "active_tiles",
+    "held_yield",
+    "visible_three_day_supply",
+    "backlog_belief",
+    "net_flow_ewma",
+    "recent_24_supply",
+    "time_since_supply",
+    "flow_observable"
+  ],
+  "bins": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      12,
+      24
+    ]
+  ],
+  "stride": 2,
+  "rows": [
+    {
+      "episode_id": "106617121",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "5061bb1a962fc400e1d26dfedb8bc757f3aa627b5a3d56f024185a8ae9421fe5"
+    },
+    {
+      "episode_id": "106910787",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a465684fb0492bd8a4edc08ef612ec0327a9b7e7ecf2dfd80f9fbd54df8fb6a4"
+    },
+    {
+      "episode_id": "106827849",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "1fd72ba9fa7e1b96227bf3aa28fb61a4d78e93cdebd6646d1999f726dd048e83"
+    },
+    {
+      "episode_id": "106741982",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "75a0bea19baea9d09308d974a96e32a3e35b9369b3c6eebf6a9f879dd765ebc6"
+    },
+    {
+      "episode_id": "106905106",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "9499c170f8909206cbb3675bf99dd7dd32b58f8f297d465fc9e9b3366a9184fd"
+    },
+    {
+      "episode_id": "106928802",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "931a7b362a171fd98078d8c5407136945aba79df745a0c4493356547ee4122c9"
+    },
+    {
+      "episode_id": "106705310",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "0ad613e0abb5d8088dc9ce3d24bc23400c80c0434d595b29a75093194b7e6fbc"
+    },
+    {
+      "episode_id": "106698938",
+      "date": "2026-09-08",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "2d3f111d335b48406fc48e4a59c131eab4aa82345a4933f083184c2ca6e90874"
+    },
+    {
+      "episode_id": "106601374",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "5182cadfb1a190b91a382717bca7c02a19f0dc110a4800f3dacc68ee4ba7b5c7"
+    },
+    {
+      "episode_id": "106557573",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "bc53da8b43dab7c0a7fe37d0befe105a2f24ca21540fe2d66cd53eb54630cb14"
+    },
+    {
+      "episode_id": "106512386",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "054548b98784bd7a8bed0efc3f527739bd018617260a838b08cf6235fe27b75b"
+    },
+    {
+      "episode_id": "106473786",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "72419b0ba618e1d0b1317d19ad0ca43b03109bd304504af5b518495beff469c4"
+    },
+    {
+      "episode_id": "106496748",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "73061ae044371e83f8a72cbafee1c97369753a5e81f7655c8fea5e165195ed15"
+    },
+    {
+      "episode_id": "106327827",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "34dbe561b2cbe3099119b0eb931ae436f1018795d579279ebbae033577acf52d"
+    },
+    {
+      "episode_id": "106309312",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "1dd6fdaa3cc69d5fca0a949394107b0d8b9e401cf19c68340f089ab7bd2e7e66"
+    },
+    {
+      "episode_id": "106314816",
+      "date": "2026-09-07",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8103d6aaf5a16850e6e4b3fc83e444be996367d0b3d9eac3cb4ed9a1d16868d0"
+    },
+    {
+      "episode_id": "106208736",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f5d707ecf47756b368d3bdc0b1ea78f7cbe6b099ec65bdf8500e942a62140b6c"
+    },
+    {
+      "episode_id": "106264036",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "312d806b0d3b416bb4f5711fb76fcf612d5050c5aba4d466cad61b04bc7e4b4e"
+    },
+    {
+      "episode_id": "106141472",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "fa6e9adeb2833967260c56ecf02197befa062d84afec8f349b352438f2c17e48"
+    },
+    {
+      "episode_id": "106040878",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ac6171e4e72e3d1fab1b15c4ee9832e242d5bdaad5763e28a69f1015b72fff81"
+    },
+    {
+      "episode_id": "106163408",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "c181f3e947ded630872bd87a6a5ed57db105cc234788a8717385a36e2ccbf861"
+    },
+    {
+      "episode_id": "106008781",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "c1611295813b9cd1474e612ddd3489ccc6384df4727399c8781378bd1f25eb0c"
+    },
+    {
+      "episode_id": "105957849",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "fabbde32f5c164b3c93288f026efe9453f7c6e061028718449190fb310581717"
+    },
+    {
+      "episode_id": "105957843",
+      "date": "2026-09-06",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ed0289402783ffcdc0fee90396be64d22aa32a4b923be34e5069f30acc20a527"
+    },
+    {
+      "episode_id": "105935040",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "15dad97aa83508148df2a4151d541bbaf5dcc857626f1bbffbdf00d2b12809a1"
+    },
+    {
+      "episode_id": "105893734",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "23d33ae06843694bd0468d6c3979bc869243e6fdae945f5ac8cd43e3ee828622"
+    },
+    {
+      "episode_id": "105887034",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "d8945440da670bb69c0ccddc481436c19545fb57764566afa64112c1fcfecf8d"
+    },
+    {
+      "episode_id": "105754025",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "01e23ba34f0cf819c659161fb9c3f0242f012437378c065af8df6a312ec413e3"
+    },
+    {
+      "episode_id": "105761445",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f08e47c3e7c7d85014a312a4fdca4f5b009d1b245138c87022ca9aa9cb126c01"
+    },
+    {
+      "episode_id": "105739218",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "787529dbb2765deba3cb22e9942381616617e1a95ef71857c6756e5810d863a3"
+    },
+    {
+      "episode_id": "105666926",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "2197d28981c87d0bd15da76fceacb58abe3c5fc521dc5ee94e5068ac0832e3ef"
+    },
+    {
+      "episode_id": "105703211",
+      "date": "2026-09-05",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "0d7174b81c276a3a4a5cdcd5a68b82ae7a2ad020c2e0f8be4c9b3660a735c5a9"
+    },
+    {
+      "episode_id": "105553685",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "b6fc0ac2ff3a0f622892da9e4a4f43ed21880bf78b378b3be635e7b169736e9d"
+    },
+    {
+      "episode_id": "105416500",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "b37a0b3ec914dffcc1c6fee231da00d48988c80768378d7a0e4c84a0aa69c412"
+    },
+    {
+      "episode_id": "105384058",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "73d40085b884b510d4034f023ec7b6448889f32f8d8a355a93c6186abddc865b"
+    },
+    {
+      "episode_id": "105342399",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a30ce4085cb098a6e9f8ee8ee4ab3a6479e1aab05c3229f931f0096c3ae2156a"
+    },
+    {
+      "episode_id": "105423464",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3c338c7fbbccdb5fdc8109c40e24083917fb450ad47c431c1785af4c7ee34b98"
+    },
+    {
+      "episode_id": "105301886",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8ee94b0b5643c62cc3804e97e3a8b06b064f708f2bbeccda333929e9784ba5d5"
+    },
+    {
+      "episode_id": "105318910",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "e3f24a59127074f1596816b7dd3d523c484b4613a0098821a6903c2b1672a31f"
+    },
+    {
+      "episode_id": "105337896",
+      "date": "2026-09-04",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "e6180241fc315bba33fd3f24c98c917ec79a9956d3bf370c00203bd96d556689"
+    },
+    {
+      "episode_id": "104966711",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "4f1fbfda4a59715686c334f5a85488bbfaedc9afbfce571209f38d858c93ff66"
+    },
+    {
+      "episode_id": "105282881",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "82dd7e74097f75a417410b0855327cc34d5cce03ad4b001957ff9b53aceeeb1c"
+    },
+    {
+      "episode_id": "105267996",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "858c4ba394bfd4a025f318dd948abd9e9149c9fe4ef69e2be50d984eb9486ea2"
+    },
+    {
+      "episode_id": "105130871",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "0a6fcab8cbeb175c3c8505c01a8c297335475ef1bc1e70819c05beb119140da6"
+    },
+    {
+      "episode_id": "105133496",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "53dc0c38cf835e63dc2e27b2a340d55dfd3ca424b791db3db5f45128cb110e51"
+    },
+    {
+      "episode_id": "105252875",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "2d5d46c50fdb5658f7863caddb0246824f818ec87311854434e2aded54258a28"
+    },
+    {
+      "episode_id": "105097434",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3b5596e5a6c6e042daaaf4f0f1b93bf6802dace6686075ed6494a699ee991c34"
+    },
+    {
+      "episode_id": "105102751",
+      "date": "2026-09-03",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "91f7c901aff9b04f7a99e0da69990782bd9ff69ce6f710f56ff29deab8355cd5"
+    },
+    {
+      "episode_id": "104962401",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "91ff44795f5e4624ca4447b86e0cd40a4c7c725ab4cf3af93be3f403188e917a"
+    },
+    {
+      "episode_id": "104885957",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "1525265c23b953302beec1b4880e502f80e1e25fec849a195547df1ece9d1e20"
+    },
+    {
+      "episode_id": "104957021",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a9816aca9d353a5984a99ae334034b98971e617ec58a3f08f31462c724077041"
+    },
+    {
+      "episode_id": "104947514",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "9bd8bb8ee769382ded60267483d2324d1ab6482f37e0c704c272d728299ab379"
+    },
+    {
+      "episode_id": "104885108",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "9e2cf4c1161802404c2b9e3562c2a5721b7c215b5363a4d6c64a01855920f42b"
+    },
+    {
+      "episode_id": "104795920",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ac1d7d9a29c3c1d1cc649607377ed29c4d0b6d35a19162156499c6fbe576fde3"
+    },
+    {
+      "episode_id": "104838653",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "651715ff62c6650747bd9c463cccf36b77cd899b024f38530663453fa05565c2"
+    },
+    {
+      "episode_id": "104831013",
+      "date": "2026-09-02",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "675772265136fc7c4bf005fe3ec79a537fe235fc7703aad2e026dabfa2a56316"
+    },
+    {
+      "episode_id": "104658753",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f3fd4fb458a8807cad090478a1bc16d051ee68e43e143d82485603508d89d4b3"
+    },
+    {
+      "episode_id": "104629815",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "218441220feff00ad5629bb64f8d476fb8f5216ce584ce64ed732c5ea71bffd4"
+    },
+    {
+      "episode_id": "104592672",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "39a45e634b1baa0857bb5c0794ea0c20b63bb38b9a2ac802b5a85aebb7e77591"
+    },
+    {
+      "episode_id": "104526157",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ef7917fb57bd12e6f2abceef433cf0fa8361fecfc12af5dcf41d80976f902bbe"
+    },
+    {
+      "episode_id": "104532962",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "fb8391b182585c8f4489b15ec797ce586924628e7bdd339fcaa39eda077ee784"
+    },
+    {
+      "episode_id": "104567742",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ccde4f504ca04b6afb82076771e8f4c782982c7e08126082ee41997095816b09"
+    },
+    {
+      "episode_id": "104481847",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "62a57490e93eb42f27e1481f8ff610bf1816ab3fb4a2f0ee3d879d5ce55a37ab"
+    },
+    {
+      "episode_id": "104471085",
+      "date": "2026-09-01",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "06e8d1b62f1ecf1e0bb1faeec18d0f8bbe49c44d253b851a8e364d081d86c64a"
+    },
+    {
+      "episode_id": "104466573",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7b78ad9cadd4f5484d932abfbd98750dd68a4273cafd0666f1868464be9996ea"
+    },
+    {
+      "episode_id": "104437552",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a91545e28a21ee3667ee5b08bc5116d9dce39a7c9acb04a3e32b70a41fdefc37"
+    },
+    {
+      "episode_id": "104428606",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "97ad8f3708f9d690f7722b777022c7842125fbd140f54d31695fc3ce23b26b4c"
+    },
+    {
+      "episode_id": "103870861",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "4747dab1a3f2d9b6cf4693f30298854b59b9469c474c568ee5a229b21218f74c"
+    },
+    {
+      "episode_id": "104317383",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f24178c91799a6bec88bc0b2de3b394de460fea031801e46b89be4a6ffcbd2df"
+    },
+    {
+      "episode_id": "104038384",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "b86a3cf5848ff9f4d1455599a326d5b1193d56aa60f920f65403087fd51f0939"
+    },
+    {
+      "episode_id": "103770323",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "dedc69454948db786988c8d527600aa9b63049ceb165ffe1efedef6fb824957a"
+    },
+    {
+      "episode_id": "103745899",
+      "date": "2026-08-31",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "592870c9ea9476da60b8e02e80fcafdfdeff59382a207136f95476c7e45c5b37"
+    },
+    {
+      "episode_id": "103629809",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "890bb78675378a9dd43837544e87f0b34cd0f6154b5cb8fdeff0d50ec78e5612"
+    },
+    {
+      "episode_id": "103493668",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "17e047f2bd32a04ae4468fcc511070b3c63bc283ebaafc8eee53775c10265d09"
+    },
+    {
+      "episode_id": "103471597",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f47c5ec1028a27d8ca8e66da9bf2f4927a643033e40faae1fec8f15b9436265b"
+    },
+    {
+      "episode_id": "103036031",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "4c37bb7b46e3beab48e21b1b447cb0f0adffb5963cc6980d6eee2c7019785f59"
+    },
+    {
+      "episode_id": "103268405",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3a6405a189c526d09d1aad3c9b803cb1fda642a5ee78f7894f881560b5a3a04d"
+    },
+    {
+      "episode_id": "103013795",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "2f66b520fe755d2feb5092e4d15c24b30a3b920308e607d67aaa42dd27e2cea9"
+    },
+    {
+      "episode_id": "102879947",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6d6a25f398d3dc3c2737a1505ec6d157b51d1414859f1b17575d6117799c4f90"
+    },
+    {
+      "episode_id": "102900093",
+      "date": "2026-08-30",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "23d6e3229919ca6c071c32e0c7e60eca91b5d6feb90c60d59c7a55bcc58ce358"
+    },
+    {
+      "episode_id": "102844256",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a742cfc8ccb872d1e907d48d986c8e8de0006bd83ba739254e9d0ba23ef2eb19"
+    },
+    {
+      "episode_id": "102752874",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "0feb77822e134091382f59160499391a91bfd9bba0dbde0fd85083fcf6c88266"
+    },
+    {
+      "episode_id": "102732732",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3e4cd541db2cfecf36a1ac006c318163d5a998e3a6558dce74535e9c58f8a2fc"
+    },
+    {
+      "episode_id": "102576541",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "28e67e441751a80a35c0cb10ca47d6ff72f3ab0267f7d2fb14603edb2e9c9cd9"
+    },
+    {
+      "episode_id": "102074098",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "463a5c85c26f3eb9196e69be4ada595c9435e90febe65a39711eb0f68904d399"
+    },
+    {
+      "episode_id": "102556429",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ec3b0c0c818de12ee22e7397c9a223f6140e7739a3390715322aab0164e79e72"
+    },
+    {
+      "episode_id": "102297453",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f802bde7e52dfe5aa36a2f1c4d23fd77c37187e006874320b36ae887bf6c0ddb"
+    },
+    {
+      "episode_id": "102154496",
+      "date": "2026-08-29",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a5f9205140f358551da989407a88689f765bfb2e43c9bf94bef4643c8aed42b6"
+    },
+    {
+      "episode_id": "102027177",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "5993556e48328dbf35fb31bf4283c552b777c28ccba3ca94944226034038a3d9"
+    },
+    {
+      "episode_id": "102007393",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8601bf4c692036c6792a361a0355d907ff61eb3813004bd5a2f4ee49385bd7d9"
+    },
+    {
+      "episode_id": "101611982",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "4cd3729c632e158838a0487c017d922a1ade99535ee38545558553c2926a43ec"
+    },
+    {
+      "episode_id": "101875645",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "fac9a9578a5177fb71a362cbb6ec339078689549a532fd9804a6371ffccb1306"
+    },
+    {
+      "episode_id": "101431097",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3534fba3c25a4022319f690939d8f3a06c7ffb692ba9c5a49e121a25d0fe6641"
+    },
+    {
+      "episode_id": "101428742",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "0c8c382dc804925fe313fd3569c5ff93319255cbfd4dae13e9a9ae4723db9b04"
+    },
+    {
+      "episode_id": "101395271",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "e059e7c5db4b3c1f0d6a704a508eaa79b63a85fb339b234329a43e631f8332d7"
+    },
+    {
+      "episode_id": "101417724",
+      "date": "2026-08-28",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f9f036bb04450653e4be66e6d43ec8c1999e2cd314503fb92cb6193396811cff"
+    },
+    {
+      "episode_id": "101231593",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "70706dbbd14dbbc2dee2f745aa5cbcc92c1ad959864270727cc64f2f6a6b5c89"
+    },
+    {
+      "episode_id": "100679556",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "08812773fe79f3de0acf97c41f73795151af6dbf0926d361ef89322821b40454"
+    },
+    {
+      "episode_id": "100672695",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "58b01573cf1e39c362b36418fb2a71f7b55e664a5a71f4dc50a2e9e85e3de3d7"
+    },
+    {
+      "episode_id": "100597433",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ee270b3771a51175909053ff57135cd284933f36c498972fdd3eec71d6834636"
+    },
+    {
+      "episode_id": "100533590",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "b3218bf5cb61e6b68bafa8eadaa388ce03f81cb5c579c948fad67b8c8807e0b7"
+    },
+    {
+      "episode_id": "100661270",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a95a793219c9b7971efaf63a065878d1c031c3e2cb61c57bad4469ea79b76af5"
+    },
+    {
+      "episode_id": "100547214",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f53ecc0722d43386ddcd692645998748d4bb088776ec84d5ab3d72ac13a342d0"
+    },
+    {
+      "episode_id": "100535790",
+      "date": "2026-08-27",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "95fe431297ec5779bb23283b59f81f0d433640ceb816ae4b994bb9c579076432"
+    },
+    {
+      "episode_id": "100317120",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "24dfb3c35eecd651d54262d4d23f2969c48cf6edfd9b8e17565e92c2342056fd"
+    },
+    {
+      "episode_id": "100287468",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "0b312087b6b3566e369413f38be0ddfa86c9adc01d2ddfd7c95603e8584ead7b"
+    },
+    {
+      "episode_id": "100022955",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8472add8512c1b17b1a18ac380c8fc034893ec1518e1e7c55cb840e626ec9617"
+    },
+    {
+      "episode_id": "99781181",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "b633cddcbbb7c55148dea909f7443b07ab71e76d7864dec776f7747b2786363a"
+    },
+    {
+      "episode_id": "99781050",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "97a2223533d9a875c0a23c985b488da114f9b72451ab03e5562831eadb969631"
+    },
+    {
+      "episode_id": "99683065",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "74528b65ca63bc39c798b8e7542a5822b1088a843d78d8e3420c4c1bd7361005"
+    },
+    {
+      "episode_id": "99682926",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8876fd0554e9b8723d658584624ada8315f6aef2f22e69652360fd20d6c05da3"
+    },
+    {
+      "episode_id": "99938600",
+      "date": "2026-08-26",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7aa68b9a54dc279d80529ad5aa0a847c7c3c274c5e22c864566f7e90dbe15235"
+    },
+    {
+      "episode_id": "99484671",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "962a7201b23a92ce30338d0b024827c4533c6afbdff6339516d7c10c4cc4b610"
+    },
+    {
+      "episode_id": "99439177",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "014a0ec9d8dd792d6313bc07493236594d031c9659dfd6c3c7d06921bac69a2d"
+    },
+    {
+      "episode_id": "99329563",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "388a06b91550b23dd5c241e246e99154982c4164c9243c72653a5dd3b28f8f68"
+    },
+    {
+      "episode_id": "99192635",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "c697160cd2f61e7d694411d494de823b4ce5eb9962ba548dfde455263123a60b"
+    },
+    {
+      "episode_id": "99206433",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8216ed1a80a85f39c04b67c1ad9899eefaeda62234e2d35ab0d0c9d86df053cb"
+    },
+    {
+      "episode_id": "98932603",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a4fae0143256a430ce6bb8b81444ade6f1838352062f9a4c55b504d0ea24f6a4"
+    },
+    {
+      "episode_id": "98898504",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "44f33fc185a5e037a947e3f826ffcc101950902ba6df2f20dde4b0fd023a66ac"
+    },
+    {
+      "episode_id": "99169915",
+      "date": "2026-08-25",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "4b10fd26bebfdda50c5f3089d3f9506b1633f02f9c428ace46ca9d1dc41f2ccf"
+    },
+    {
+      "episode_id": "98711424",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ada202ce26317049cc20279235e7ba1f5d404e7ace40e27ce00e83bf679e6caa"
+    },
+    {
+      "episode_id": "98625326",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3daf73c3f05529f089c6f9affe0b2a5b167e2fcaa6558e09a8ea8c39f108f0f1"
+    },
+    {
+      "episode_id": "98602491",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ddd9541796d3812199c07f5acf7bcafbccaf32d6566171b1db02a4c89c8ce2dd"
+    },
+    {
+      "episode_id": "98435791",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "44cbb0adbf82f2e35663ca85beb87cb6d64413965f20c5bedac8461f196999ed"
+    },
+    {
+      "episode_id": "98109649",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "66fdfc984e0a943adad18e63d5a8ccc1f684a52f3b9930800adacb81126f5ef5"
+    },
+    {
+      "episode_id": "98141712",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "720663f83cb50642657cac646b10c34215e46c3b162e371598687906fbb496b2"
+    },
+    {
+      "episode_id": "98184881",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3beebe3fac826d64462dddf0dbd8787815eaec8242255b7fc1b2c68714180998"
+    },
+    {
+      "episode_id": "98207529",
+      "date": "2026-08-24",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "79fc6d44138800b3de78e875bc04e7447dcd9b2e46e7da76d99560e2dd68102b"
+    },
+    {
+      "episode_id": "97945372",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "c76f16baf651713924a71cb4428a8a22476c307cee0a2f65153f099f6ada17f3"
+    },
+    {
+      "episode_id": "97747091",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "03091c70ad7f110cc617ba6a47c97a164e5422d261519cb227bc2f04116b4246"
+    },
+    {
+      "episode_id": "97685290",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "320dd90cbd590cc7e7266bafc5da144a480401d1eba9567c029ffa6e87d78a94"
+    },
+    {
+      "episode_id": "97678542",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "5544f1e35e18503f4ad637c93337952330ee96c2c44854ac99622c9be139d33d"
+    },
+    {
+      "episode_id": "97393258",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7297fc3ce1dcf1e7ec6d15f6f5c1615c504356a313a15508443267678321c69c"
+    },
+    {
+      "episode_id": "97486832",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "0d058041ca40e935f29b72d4f79f02fdc4093ddca3a257c76fc49605f2e152aa"
+    },
+    {
+      "episode_id": "97354565",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "266478315dce82320e293d540bbe245ad838896076683f58ae4628137090a2c4"
+    },
+    {
+      "episode_id": "97420635",
+      "date": "2026-08-23",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "e75fc6d08c5aa0b53f84ea5a2e0ce6ca51940c334f43d6dce638a220f7a25b97"
+    },
+    {
+      "episode_id": "97078517",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "acc7050755fb3688eb0571c561fee9aa84730a759820b439b744add944a45542"
+    },
+    {
+      "episode_id": "97076270",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "577ce3557545fa8e31dee1c2e5e06bb62197ddec741c2d70e95912fa797f2a57"
+    },
+    {
+      "episode_id": "97021573",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7a4ea87ddc4b08e90e33760d1e2761f9e22fe40c56f976e06bb97ea77a64d0b6"
+    },
+    {
+      "episode_id": "96982755",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "9438d207c302ad946a50f1c68fcb8ee2770b0f4a72d72ce24d9256aa48a558da"
+    },
+    {
+      "episode_id": "96581133",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "4a2025d5661d9c4bce5dc519845e0986291b9b4fca8c22513daedfacac060d3e"
+    },
+    {
+      "episode_id": "96699796",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "d7e6d201d77274a3bfb4ff5d1460cd68ce13b62e1a59fccc6d4847c0756dc0b8"
+    },
+    {
+      "episode_id": "96496852",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6784a72775ff9d3199f0ae1b6880cd873e2b6d96181602d006500f3317b1967b"
+    },
+    {
+      "episode_id": "96439807",
+      "date": "2026-08-22",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8e1a46643aaab666f5a02c42d5093675e0f169c22c4e280dca69f7dd427ff3b7"
+    },
+    {
+      "episode_id": "96152594",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "97f9c736e9455d52e86ad41d768f2d9cdca599fc25e708d85a3ad58258c63edb"
+    },
+    {
+      "episode_id": "96127455",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ec475991c9c096b30baaa2da4ae5b6da81c55f95e831639dae4a6bbcf41aa048"
+    },
+    {
+      "episode_id": "96045133",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "92e2e7bdabbe4694b68a0722feed514e2e6fea72821f97f2574050807d14fb22"
+    },
+    {
+      "episode_id": "95839896",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3123bb35e8ccc6e225e9e4465ad7dfc00071a0af23ff024be3e6d126129331ba"
+    },
+    {
+      "episode_id": "95673229",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7372cafc12bb8ba878e5903d20aea385dcb9340c64d7705997c1bcf5a107d042"
+    },
+    {
+      "episode_id": "95579867",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "dc61c10b0fc6264003cd17301c8ea61d4f9eda302353eb38b84f6efda3c5a8c9"
+    },
+    {
+      "episode_id": "95636879",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "367fa14bb8e4e236b185a725406262e663d67c40332dd45ee0fa406133bbeb7c"
+    },
+    {
+      "episode_id": "95570768",
+      "date": "2026-08-21",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "e4e383ab3cb569efecbcb34846ec3638557a8ab266dec8a298b6dfc6e8ad6c20"
+    },
+    {
+      "episode_id": "95499854",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7ca5094d5618bc0efce82da25be79168887377779659e7b10a740080903a6e97"
+    },
+    {
+      "episode_id": "95459067",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "214c6aea28865f03ab453f7734ed597f405d80c6ce038fb5757927762d203f9c"
+    },
+    {
+      "episode_id": "95411118",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "c8699e90663db9687986158e73beadfc5599422cdbee688fb0e8ec5937b1ce62"
+    },
+    {
+      "episode_id": "95313086",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "712d73fb48acb507ace3a7f7102a2e08f1e8ee9fb97c3f81b05382288ced5173"
+    },
+    {
+      "episode_id": "94888406",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "4effd6b4d86691fa9e68c309dce98d9a8f1678c06940b3eaee8b1d82569c2750"
+    },
+    {
+      "episode_id": "94943030",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ce8752cb5e804ccd2ab93ca52635714bca357bd0d1e03f0ba5fd6f0fc08e4bd2"
+    },
+    {
+      "episode_id": "94883894",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7e679a4df99821c8cb3a638728ac5e556dfffd7954d4e6f5fcc0a45840194e3a"
+    },
+    {
+      "episode_id": "94867748",
+      "date": "2026-08-20",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "f1a17663c9cd093d28fb4ded0f0d5f6b59504c9f167f0b445794da19f0cf386e"
+    },
+    {
+      "episode_id": "94689800",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "2bf8c868b08df7c282d2f4e287905357b42173980489ca3453f85ea85024e2a2"
+    },
+    {
+      "episode_id": "94612545",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "5b0e3248b6c439494da9e74891d7424e10a590d3bc0ff644284ec9da8f671b1f"
+    },
+    {
+      "episode_id": "94538501",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6eb061deddc41f402fafb905be613f79470ff8554515833c1302809f2c246375"
+    },
+    {
+      "episode_id": "94504834",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "284f8639159d335f460a5ec7dab41bcf5588b401321f1d1e5902cabd702020c1"
+    },
+    {
+      "episode_id": "94391332",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "9040ee1d7ad995249a1f5bb951cf17df851dcebb08b2e04e72a7836657e5b70f"
+    },
+    {
+      "episode_id": "94503948",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6a43dbe986e9d7056ab05a8b2c940d0ea74f58ba4ee234fa0d04a8cbbdf4f0a1"
+    },
+    {
+      "episode_id": "94381439",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6af25ffd64fd34a5aabb81ef6d39095f77e3e825d1c9b740f506742c4d1a6aa3"
+    },
+    {
+      "episode_id": "94384291",
+      "date": "2026-08-19",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3e417c83fc0c2f2afc07dc637224663ff6b4407b62f4c449a15d92669ff80de6"
+    },
+    {
+      "episode_id": "94312957",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "57b7e9cac7e4cefa3b7b27bf44caa3fa535ab8912a17a0e73c13f1d2c5feb0b5"
+    },
+    {
+      "episode_id": "94291875",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "2ebcd3ad72a7af1eee00fe63587e1235d5eddeed57560f72c9e9b55aec4d6072"
+    },
+    {
+      "episode_id": "94238459",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "e6b2d098cc603115c6b654c5c192a7f241174e37ab6f96ba3c19ac83dff5fb81"
+    },
+    {
+      "episode_id": "94144125",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "1ce1b7af2cd994fcf41beae23e27cce794270baa7d954e1062dcb9b6d82370fa"
+    },
+    {
+      "episode_id": "94090425",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "e4791953bdcbb5b11a52871ada0f276af9fcd2e2dee24193a49619a8e88eb5fb"
+    },
+    {
+      "episode_id": "94078088",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "baba77e9d6cecde77b3fcfe944c9be0e765bda58afaa466fef8ed5c85104df17"
+    },
+    {
+      "episode_id": "94086914",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6042284c811d4eb3fcd96535bb4324bb9f1a69ca3a088c23e420aa700efe5905"
+    },
+    {
+      "episode_id": "94074550",
+      "date": "2026-08-18",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "30d0285b410e4f442d2e4ef57547a2786838c973e31890712cb8534bcd4c5090"
+    },
+    {
+      "episode_id": "94033284",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6239555895861c64f53690ba81e32be1b8043df5b41b34afe77c9906cba6b759"
+    },
+    {
+      "episode_id": "93972527",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a57738777adb3eeb5b7c9a220ade34cbf177e5d650c1c55d4f9ac1ce000e6c96"
+    },
+    {
+      "episode_id": "93883682",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "983d49c0ad21f7a14edbb81db925cbc450e5c9ddae6779ad64d4570559ae9cea"
+    },
+    {
+      "episode_id": "93831747",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "bf2839babe539a89d86a1546852b5566f73e3f82dbf41c394e056563f39325e0"
+    },
+    {
+      "episode_id": "93810027",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "cb89528dd47ef2bb74e719a016637569dd6cc8580ae817a936c729568f13f469"
+    },
+    {
+      "episode_id": "93783012",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "9b17e90dd1e6350b4c2a1d25ee82081b7b56a32e7cc9546319ace3e0fa56e725"
+    },
+    {
+      "episode_id": "93798406",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "14a383d070bf457364d09ee72b319cc87ee831cb4d39e982ff4b0520ac29453e"
+    },
+    {
+      "episode_id": "93802295",
+      "date": "2026-08-17",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "647431b4d5f3d233a2d12ecffe223c3c383cc9d4e80ff516c11bcd39f56ae6fe"
+    },
+    {
+      "episode_id": "93767763",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "c99aa0f0d638d1170f20ac8999acdc8596e8c5e7ddc8525afa392cbe26826833"
+    },
+    {
+      "episode_id": "93765057",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a089bde848bba05db8633022e451953ec9e89bf2c2aed27e6bdd7451c9336067"
+    },
+    {
+      "episode_id": "93724795",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "1208f2167e45adc8c3d2740f1a2e9b0eb9437aa867a81329b8e1820ac9ce469c"
+    },
+    {
+      "episode_id": "93698950",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "7424f9761b18d0c9038475aefd2d107045c5f6f7832c4eb9e1ee17223192e863"
+    },
+    {
+      "episode_id": "93674745",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "ac9795ce1e3958d661c71d3a74169f7a5a78b487edc9fff25cc4d74312a22004"
+    },
+    {
+      "episode_id": "93597481",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "8bf695c82bd9226be3d5c24887869661b94d260fbd6aa59c7280bcbad7cb194c"
+    },
+    {
+      "episode_id": "93479617",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "24d5e50a549d975cb7bbe363b7613ddc3355b9c5ef4d89f40e6f1434a614d1e4"
+    },
+    {
+      "episode_id": "93515263",
+      "date": "2026-08-16",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "1424a81b20bb3e962982cb98e470a5f044a6a0542832d3061c2d2f970cfb9c4c"
+    },
+    {
+      "episode_id": "93387735",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "97f1ef95424e58a41b2aabcb54914240808150014eceb54c13d335c5adfb7049"
+    },
+    {
+      "episode_id": "93375256",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "d33b73dc39bbf6586c5be0c4f6933ebf4be7b6c96ee5c30acbdc32fa517edc9b"
+    },
+    {
+      "episode_id": "93362698",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "cd871b00bd583f195f584eed51a6c0ab97e8ad051b2e251fa9710330c63ce7f0"
+    },
+    {
+      "episode_id": "93352112",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "3495e99f49c6727209d16203875595422e270eee9eb10b6536e8969823461efd"
+    },
+    {
+      "episode_id": "93283194",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "1a693fd866eb49089fc80e5fbe3acc154142aed05c04d87f93e1cc2941f24187"
+    },
+    {
+      "episode_id": "93240208",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "6a0fce3d5c019777c3b9a1d1700242819c22e70d7129fda6bfef2a3963add5a4"
+    },
+    {
+      "episode_id": "93178489",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "d967b678bb9501fc0c7282e3a86f702696fd1f658bd871734d3a726dad341ec2"
+    },
+    {
+      "episode_id": "93171285",
+      "date": "2026-08-15",
+      "split": "train",
+      "rows": 6264,
+      "sha256": "a97f6a4c771fe967b760613b3513d81d1a1e8f3cb101ed025997309845fc3fdf"
+    },
+    {
+      "episode_id": "109835651",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "7079f8f7553325095fe86cdba75e6f4aa2255f49087bcf7dca8d0130fdd5225e"
+    },
+    {
+      "episode_id": "109802933",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "354a30936e561b8ad76cd474a4c8f07b22bc6b3194b48f01948f051566945e1a"
+    },
+    {
+      "episode_id": "109793226",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "cece66695d2c12d7c52154d6667bceefd09b19ab1f76dd76393caf961d2a5c7d"
+    },
+    {
+      "episode_id": "109782431",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "f6ac31bcd53b8cd9e78515b0665bcb1f51bf8318feccf79d74adfd5558d1ff7d"
+    },
+    {
+      "episode_id": "109741166",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "90e9950ec57b08eebb4a0c44619b6e2965d12effc7a9618f134c6bb70cec83db"
+    },
+    {
+      "episode_id": "109709273",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "a2131d21f8fd3f089037336b8267947e02fc3b65cb6cb878741c528c8f23b8af"
+    },
+    {
+      "episode_id": "109677238",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "dbe6e805c90782ee9a9f15c95226d2aadca935c75a7da851cb09839bd06b5f09"
+    },
+    {
+      "episode_id": "109608187",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "83190c67c803d00b6840f54f33582fac715f31f539f2e0cdcd6d678891ba773a"
+    },
+    {
+      "episode_id": "109558405",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "945a48c812c774e0ed9cd89130566097f253321510c8c6cae140cec63a9f7fa0"
+    },
+    {
+      "episode_id": "109532777",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "8f9a36f356d6da199a344917df6153e0a7429933f20004aa51278756f626336f"
+    },
+    {
+      "episode_id": "109492400",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "d5cd2952760742dbc0f58a96580cf6160d05f93067a179b8abffb3cb1876d988"
+    },
+    {
+      "episode_id": "109480641",
+      "date": "2026-09-16",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "8e8005c7ac2b4377c1d78bc6c64cc0f1d1093e0663d4ec60bc36effe5a5978f4"
+    },
+    {
+      "episode_id": "109394970",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "ac7dc61bef5a805f595f63165fe1dbd63f2ec339b1b7b3f87f9f8cf931e90e00"
+    },
+    {
+      "episode_id": "109312752",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "24aa6651ba26660a3aec410d6abdc0c425a112f20f98b8cc9c2c08164b2c4598"
+    },
+    {
+      "episode_id": "109302523",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "ef2e939be101feabb56b48e2bab96438416a1dfd085165ef3711ad9cbc4f917c"
+    },
+    {
+      "episode_id": "109223726",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "2569097f5a2a46adaad07dd38f9b0bb8854c198ce186f85e390955257626e69a"
+    },
+    {
+      "episode_id": "109176207",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "79b25792c256473285b2c547b8965fb95db4e0c1515353ba1a64758b7268bc79"
+    },
+    {
+      "episode_id": "109170912",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "0ed7c9e54315fb2e1606377c0dc8285d4618ad8361ae4c570279126fb3eaf3de"
+    },
+    {
+      "episode_id": "109138742",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "114dd82933abcb0dde5d87d2506ec8852037b4eabd9ffa0990f04f489bfcae7e"
+    },
+    {
+      "episode_id": "109160576",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "48d7cffb5a7ed19be88238240a687eddfd2d324800fe2b6d7de0ab6db82d03a9"
+    },
+    {
+      "episode_id": "109134009",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "1838742dd1abbd72b398704a6be4aaeb1da4015fe0f54abb910708a8405de866"
+    },
+    {
+      "episode_id": "109133993",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "80e917131b156ba024e7fe46ee03f3c071c4141810631062eb6e96c46cd4efc0"
+    },
+    {
+      "episode_id": "109108045",
+      "date": "2026-09-15",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "b844a11737d154df582716804c9fe348f0e2711e5b9ad21d0a5bda01a4938d80"
+    },
+    {
+      "episode_id": "109073466",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "a31c24de83dae04ac61aa1188105b40e20cf87f1268dda1f20895569b99bea6b"
+    },
+    {
+      "episode_id": "109007995",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "41df0a1be1cf67ac1907b0eafcc3162ac06d7413a2c114b37a73bb86061a51d5"
+    },
+    {
+      "episode_id": "108979529",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "9ece345d3b71f242a77d7c20eaa4325abd833363cb34ce262f1d9e5df2cabb4a"
+    },
+    {
+      "episode_id": "108903865",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "35b340714b126f200165c16754b784ff901d56370c29cd74c6d94aa25f627b4f"
+    },
+    {
+      "episode_id": "108889803",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "72860bbcb12386498b245b3e9a29531e02d5a4181e7440814f92a56bd054bdcc"
+    },
+    {
+      "episode_id": "108880473",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "a1fdf8dde3706619c178fd5eb8c4a03cba09ca67c8a5d378e433506fcb7fcee2"
+    },
+    {
+      "episode_id": "108849468",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "bb49873e848f58f0970f0f7eb615fcd5dc4c527517eabe2e54948acf90934f2e"
+    },
+    {
+      "episode_id": "108801465",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "540a074ee4f18747b17149e67eab06ad11fbbbf0e20b49908041fe484c079526"
+    },
+    {
+      "episode_id": "108820106",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "42dba3f2e35afcdd1ebfb1dfaa7a9322576f541c5aaf7df46b4bacb98802ba3b"
+    },
+    {
+      "episode_id": "108777866",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "abbc26f73c1ddd3cac03e96c2fc848c59a341b5059b4a385f8e308a1e2ceca21"
+    },
+    {
+      "episode_id": "108746381",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "4e0bfaaa7c4a2d6dc6a1a71fe8fdc26e5b3f51f6543bb4aa6d1762a87afd06b0"
+    },
+    {
+      "episode_id": "108727958",
+      "date": "2026-09-14",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "a44858c9e78fca3b580efcc93ae52c8748914641216bc58fc7b370304c27c441"
+    },
+    {
+      "episode_id": "108706437",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "ea1fba6332b859b864241786f39d35e0b1a506695459fdd2735a4ca7e568daaf"
+    },
+    {
+      "episode_id": "108646181",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "96f36c61762a49a244dd3bf17d95e6784ac1cda40610816f72d318b4040697e2"
+    },
+    {
+      "episode_id": "108616645",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "5253b0cebe6b2f1fff9dfc1839efe9e7f60265549b19f80179801cfaa821e446"
+    },
+    {
+      "episode_id": "108635165",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "908620d01cf442bfa542a5d906dc4c1c253432dff91e9c0d92dd54eb6430597e"
+    },
+    {
+      "episode_id": "108601245",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "7a45f62cb081a574b833235f9d2dfc14a5ff771834a36479a5e90ce3ec37e905"
+    },
+    {
+      "episode_id": "108482217",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "ef3921d0c49f38a64baf8be5f2a4973ba49726ef0a3a5ccbb8f67fd1c48c3963"
+    },
+    {
+      "episode_id": "108464167",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "bd783d892b77e5ff9e155f7a9012a6fe671ed9a3519ec9b03705d74911c2ca59"
+    },
+    {
+      "episode_id": "108453707",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "3e8da512be65ccd10f42fe086576e7a109a20e1176f772489abfbbfa31cffde2"
+    },
+    {
+      "episode_id": "108453041",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "f24bf7f8ccaf0464a23d93a84cb694d6fd8ceb5f0e2dd87f8b402bd4f070a08b"
+    },
+    {
+      "episode_id": "108447641",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "a43b3f26a3c7cc705738392becbbb3bfe9df57531934e45e171129a0e0dc7989"
+    },
+    {
+      "episode_id": "108371855",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "9863f7adab849defe1c752f95ec47c5e21d2c61fcb03e870e7f05392c42082cd"
+    },
+    {
+      "episode_id": "108335293",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "cad94e1b64fdedf01b0216966414ce4a22b3d01c3e381c13572643b7d29c84a0"
+    },
+    {
+      "episode_id": "108430587",
+      "date": "2026-09-13",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "57b925e5c405108cf81fd34bb5fd0b3267022343094caf5598ee117ba89fad01"
+    },
+    {
+      "episode_id": "108310519",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "7fdfb69cff530ce67178d4d25e875ff3af44b99b8894d57676258545b4965d2f"
+    },
+    {
+      "episode_id": "108286684",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "abfd6161ed2a84e70923a40fd6adde839aa9b6123f830a19a116dc7d1bde5c34"
+    },
+    {
+      "episode_id": "108199195",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "50af6eff09678293cde583914c55f531fd80ec58e45b8fb78c8acdf0577d767f"
+    },
+    {
+      "episode_id": "108283212",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "da0cec986acca9defcec84b32f750ae593e7205d2747ba68cea2a5d72654c99a"
+    },
+    {
+      "episode_id": "108193288",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "47c5b187707404e24285ea0467e5b615f1794091cce651e5add02c4b3cfa1bc9"
+    },
+    {
+      "episode_id": "108158111",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "ccd63a65ba7c3dbec3f99123bf9bd76cf0835e64ec46b0c56857de0aee4b26e0"
+    },
+    {
+      "episode_id": "108156108",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "cd6ff6f333f2bbdc49f79c946f9c608714178f4dfba7cbb6d42d848530f03cea"
+    },
+    {
+      "episode_id": "108151286",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "794850da2ed4e69a752c6bf20864764807a7559d2284bd3eac8b29f9df566f78"
+    },
+    {
+      "episode_id": "108071306",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "ad353f8619a719cec4001feae7ecbeadd3fc902346f559c002432a310858ceba"
+    },
+    {
+      "episode_id": "108051083",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "468f1555b72bf1534710dfd146e8411164cc5a7e41e59955281f57a0cbaf5967"
+    },
+    {
+      "episode_id": "108048169",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "f0f01744bf00affd03846d6526a97687d626110981f5c4fc54fade00ea014eac"
+    },
+    {
+      "episode_id": "108023497",
+      "date": "2026-09-12",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "c1a79bfb9ff2f716d187c69dc01673fe730b27d67ee688437eb9ccadf015a024"
+    },
+    {
+      "episode_id": "107984659",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "8232dd09c146793a374ab4255eb5c51b1f5e40693cc88501b8c4035d2f713b4f"
+    },
+    {
+      "episode_id": "107967504",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "42819cee5af76c4c585a839c8fbe0d75fef9a1704710a257ad5d71bafb213469"
+    },
+    {
+      "episode_id": "107891455",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "77461b940cf3c03c2fa9ea4e1d335a4e2b1ff13081787ca9d339727e82bb8c9a"
+    },
+    {
+      "episode_id": "107927286",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "c079f9464cccbbe26471cf9d44594c2ce2972dafc32e4a6335c676e56a920f52"
+    },
+    {
+      "episode_id": "107816017",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "e0150f45696c991656ac2cf26c41429b7aed715013ab8eda7c6eba5cc2d403ae"
+    },
+    {
+      "episode_id": "107767530",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "ca7c93470e1b1071a695c916245224297384734a657654bd6a6befb61dfe4ec6"
+    },
+    {
+      "episode_id": "107738965",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "58f45c6384fe9a06efae6ed00022d9ee58ecfc70d689b480e03abb870821ba2d"
+    },
+    {
+      "episode_id": "107684784",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "981c48330bd50baed70dbea91a90aaa01ab60df7949733ddc7efa8dc660c48bf"
+    },
+    {
+      "episode_id": "107689824",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "43cc7d333fbf48a97e00032d7e8aa0cf5f6958ed17a074f0bd52c0fedc90512a"
+    },
+    {
+      "episode_id": "107710538",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "e0ed4c57f2f784bf4e741e5ceac3b6a0223b16f1f186f8b2cb86becc34698b43"
+    },
+    {
+      "episode_id": "107679779",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "08a360fb4ef9243f9befc5b61b8f2a2d6da20e67bbe992fd7b52082d80f891fe"
+    },
+    {
+      "episode_id": "107651104",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "58b63c23c801c7336942e046025cc1457cff7378502a7e53cb5ae29bfbccef18"
+    },
+    {
+      "episode_id": "107642216",
+      "date": "2026-09-11",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "18e3eaa15bd84845a915ada12f406f8c9daae3405f8b4456929c9911460685b9"
+    },
+    {
+      "episode_id": "107608837",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "227931c56dbbdb65350b499349c21d428c4e0de5d44621d4e529551c9cbfec1b"
+    },
+    {
+      "episode_id": "107606764",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "be328ac805671db7b4cacb295ecda42d46fff0b4f4f7bfe37b0050b4f7400cb6"
+    },
+    {
+      "episode_id": "107542618",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "757ac61a2bdb93db017bb77b551b3881c9f1a97ca68029f22afff3a2171380af"
+    },
+    {
+      "episode_id": "107578648",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "3c593a5721f1a1605fda368aea56d475cafb60ebf9fd02634eb47f33c5c82b22"
+    },
+    {
+      "episode_id": "107564079",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "8fd2ec7e62acaa5cd4e851446fa6e00528314a7bbc0023d77032d8d1798d5094"
+    },
+    {
+      "episode_id": "107471081",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "4a87005317f4102f6a546f1fe132a581ec69c97544929cec38989eeeed80787b"
+    },
+    {
+      "episode_id": "107440903",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "4e7ac695496f95098d168beb3bf5e95e8026b431e68bc18c9e4e7754ce01f1b4"
+    },
+    {
+      "episode_id": "107436845",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "a60c83aacbb799ebcc57c2b1715fa67b9e6ca4fb6981483dd5ecf4f5d1303eb5"
+    },
+    {
+      "episode_id": "107431040",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "cddc801e073f92ebf60b0c6f3e9b91765f9bbc3ad2af256b3eca0df217685524"
+    },
+    {
+      "episode_id": "107425257",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "77ab5bda799b7803892fccde0608f6a3e955fe90ce30050c8335b62e3b48b2ac"
+    },
+    {
+      "episode_id": "107425227",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "2215310941c32e795346ba11b0befe2f70df3a9f597817b075b271877085fb03"
+    },
+    {
+      "episode_id": "107376369",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "7e789672fde82f85d42a3ad5672a90f77aee296f3679473fe596ad3bba715848"
+    },
+    {
+      "episode_id": "107350972",
+      "date": "2026-09-10",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "644853cc5a561ac885c1b68fce6a96a8adf1179fbc0ee1299abda8fc1b1cf7c7"
+    },
+    {
+      "episode_id": "107287122",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "33d061d99e42c24178e72de9c24e80b9479475a1bb4c5a4cc5223f73fb59d922"
+    },
+    {
+      "episode_id": "107285199",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "d4648332d748f4a29f43ad19fb30ea360d5f7389ee5b0ffb6c0aa662e80fcea1"
+    },
+    {
+      "episode_id": "107271699",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "cfdc9df4be1dea0a7b5e5748e1ca0be0ec6af92eff41df85cbe7cc7ddeaf6004"
+    },
+    {
+      "episode_id": "107255298",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "f7a3a451d838f8cfe98d2297aea8627abb1c57994a99e26d5d42567a64af033b"
+    },
+    {
+      "episode_id": "107245452",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "200f17a496c87880dc8dc52b7f2c886c42b8c8687991da4f8e102c4523419042"
+    },
+    {
+      "episode_id": "107229569",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "6627808b970576b0c759e93ecc53aec317e79a7fd0d6fbc801d02441928aa677"
+    },
+    {
+      "episode_id": "107244450",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "c7732ea975b8bb48df844020a46a70e16f1b25442953c1ff51f22779d0be7be8"
+    },
+    {
+      "episode_id": "107233244",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "33172b2a243d82aa52806567463d75cc335863f896b7ce1b8e6af1ab43b6b30e"
+    },
+    {
+      "episode_id": "107208023",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "6c4f2f0bdd66a38c9621f46c210937d33fbe9b5c60f5f6faa3ec715b8d55ee36"
+    },
+    {
+      "episode_id": "107199339",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "7d58326e3b21f559eee4b46cd6fd8f2b9b21513455d67b1e480a892dfd000ae9"
+    },
+    {
+      "episode_id": "107187693",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "c6e6ee3c3a55c3ecb32046cdb38420c434bff45f6f290e64dc121157743635e6"
+    },
+    {
+      "episode_id": "107041112",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "f5a931474e0ad30c93eb9a5660484886c5a94a394f69193f6d303e2f1204780e"
+    },
+    {
+      "episode_id": "106984855",
+      "date": "2026-09-09",
+      "split": "validation",
+      "rows": 6264,
+      "sha256": "f524d9d589946fb616661abea4f708f42a9246ea217ad45494db4ea1699b1566"
+    }
+  ]
+}

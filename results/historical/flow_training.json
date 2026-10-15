@@ -1,0 +1,87 @@
+{
+  "train_episodes": 200,
+  "validation_episodes": 99,
+  "train_rows": 1252800,
+  "validation_rows": 620136,
+  "heads": [
+    {
+      "bin": [
+        0,
+        1
+      ],
+      "mean_target": 0.2358611673116684,
+      "mean_prediction": 0.2321437794671221,
+      "export_max_error": 0.0,
+      "model": {
+        "mae": 0.3590216777587794,
+        "rmse": 1.605073357909799,
+        "poisson_deviance": 0.9473676601223103
+      },
+      "old_flow_heuristic": {
+        "mae": 0.6173189282417297,
+        "rmse": 1.936508540309253,
+        "poisson_deviance": 1.8777334690093994
+      }
+    },
+    {
+      "bin": [
+        1,
+        4
+      ],
+      "mean_target": 0.7509417533874512,
+      "mean_prediction": 0.7493083521454492,
+      "export_max_error": 0.0,
+      "model": {
+        "mae": 0.901547771760002,
+        "rmse": 3.009140898533174,
+        "poisson_deviance": 1.8529815937828327
+      },
+      "old_flow_heuristic": {
+        "mae": 1.4776291847229004,
+        "rmse": 3.6954943106123253,
+        "poisson_deviance": 4.362204551696777
+      }
+    },
+    {
+      "bin": [
+        4,
+        12
+      ],
+      "mean_target": 1.986402988433838,
+      "mean_prediction": 2.073920181136254,
+      "export_max_error": 0.0,
+      "model": {
+        "mae": 1.9623958098574055,
+        "rmse": 5.376860988338629,
+        "poisson_deviance": 3.3072251964418773
+      },
+      "old_flow_heuristic": {
+        "mae": 2.819950819015503,
+        "rmse": 6.334197269876502,
+        "poisson_deviance": 8.22933292388916
+      }
+    },
+    {
+      "bin": [
+        12,
+        24
+      ],
+      "mean_target": 3.027535915374756,
+      "mean_prediction": 3.316236133378484,
+      "export_max_error": 0.0,
+      "model": {
+        "mae": 2.585656430968474,
+        "rmse": 6.354186005593438,
+        "poisson_deviance": 3.872156532574761
+      },
+      "old_flow_heuristic": {
+        "mae": 3.4302544593811035,
+        "rmse": 7.595865339615254,
+        "poisson_deviance": 10.34438419342041
+      }
+    }
+  ],
+  "seconds": 10.340654499988887,
+  "model_sha256": "d046ab2d3bf90df91a897ab9f5ac51481d73f91e572ac969acf9ab5b2c289600",
+  "caution": "Prediction only, not a measured terminal cash-margin improvement."
+}
